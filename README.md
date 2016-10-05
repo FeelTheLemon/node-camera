@@ -4,7 +4,7 @@ Access and stream web cam in nodejs using opencv and web sockets.
 
 #### Building
 
-- It required opencv headers and library to build and run.
+- It required opencv headers and library to build and run. ```sudo apt-get install libopencv-dev```
 - Modify `include_dirs` for headers path and `library_dirs` for library path in `binding.gyp` according to your opencv installation.
 - Then `npm install`
 
